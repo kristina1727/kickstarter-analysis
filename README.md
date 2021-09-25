@@ -10,12 +10,12 @@ To conduct an analysis of Kickstarter campaign data to determine how different c
 ### Analysis of Outcomes Based on Launch Date
 The first analysis I completed, Theater Outcomes Based on Launch Date, looks at theater campaigns by the month the campaign started and the campaigns outcome focusing on those that were successful, failed and canceled. To do this I constructed a pivot table placing the date the campaign started in the rows container and outcomes in both the columns and values containers. To ensure the data provided relevance to the client, I then added the category to the filter container and filtered the data to only look at the theater category. I also added the year field to the filter container which will allow, should the client be interested, to look at the success of theater campaigns in different years. I created a line chart shown below from the pivot table to visualize my findings. 
 
-![](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/88597956/134786048-3fe7c31f-1162-41c7-be8f-11d512aa2d88.png)
 
 ### Analysis of Outcomes Based on Goals
 The second chart, Outcomes vs Goal, analyzes the data by looking at a campaigns fundraising goal and the outcome, again focusing on those campaigns that were successful, failed and canceled. I further narrowed this down to look only at those theater campaigns that fell into the play subcategory. To complete this analysis, I first determined goal ranges, then using COUNTIFS formulas I was able to calculate the number of campaigns that fell in each range by their outcome. I then totaled the total number of campaigns within each fundraising goal range using the sum formula. This calculation allowed me to determine what percent of campaigns in each range were successful, failed or cancelled. The line chart below demonstrates the findings from the analysis.
 
-![](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88597956/134786052-3f4e2d1c-a98d-46ef-9d83-dc1e46b6eac5.png)
 
 ### Challenges and Difficulties Encountered
 
